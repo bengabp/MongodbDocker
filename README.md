@@ -1,10 +1,8 @@
 # MongodbDocker
 
 Deploy a mongodb server through a docker container using one command
-```commandline
-docker-compose up
-```
 
+## Installing Docker and Docker-compose
 If you run linux you can install docker using this commandline
 ```commandline
 sudo apt install-get docker.io
@@ -22,6 +20,11 @@ sudo usermod -aG docker ${USER}
 
 #RE-authenticate user
 su -s ${USER}
+```
+
+## Install docker-compose
+```commandline
+sudo apt install -y docker-compose
 ```
 
 Deploy docker container
